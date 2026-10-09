@@ -5,5 +5,5 @@ ON users(email, status)
 WHERE deleted_at IS NULL AND status = 'active';
 
 ANALYZE users;
--- Updated: 2026-09-29
-// build: 1790700447
+-- Updated: 2026-10-09
+// build: 1791566396
